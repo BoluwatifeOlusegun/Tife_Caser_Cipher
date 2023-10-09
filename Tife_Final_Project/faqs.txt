@@ -1,0 +1,31 @@
+Question:
+What is the Caesar Cipher, and how does it work?
+
+Answer:
+The Caesar Cipher, also known as the Shift Cipher, is one of the simplest and most well-known encryption techniques. It operates by shifting each letter in the plaintext by a fixed number of positions down or up the alphabet. For example, with a shift of 3, 'A' would be encrypted as 'D,' 'B' as 'E,' and so on.
+
+Example:
+
+Plaintext: "HELLO"
+Shift: 3
+Encrypted: "KHOOR"
+Decryption: To decrypt a Caesar cipher, you reverse the process by shifting the letters in the ciphertext back by the same amount to reveal the original plaintext.
+
+Common Questions about Caesar Cipher:
+
+Q1: Is Caesar Cipher secure for modern cryptography?
+Answer: No, the Caesar Cipher is not secure for modern cryptography as it has only 25 possible keys (shift values) since there are 26 letters in the English alphabet. It can easily be broken through brute force.
+
+Q2: What is the key in Caesar Cipher?
+Answer: The key in a Caesar Cipher is the number of positions each letter is shifted in the alphabet. It's an integer value between 1 and 25.
+
+Q3: Can Caesar Cipher handle non-alphabetic characters?
+Answer: Typically, non-alphabetic characters (such as numbers and punctuation) are left unchanged in a Caesar Cipher. Only alphabetic characters are shifted.
+
+Q4: How can I decrypt a Caesar Cipher without knowing the key?
+Answer: If you don't know the key, you can perform a brute-force attack by trying all possible keys (shift values) until you find the one that results in a meaningful plaintext.
+
+Q5: Are there variations of the Caesar Cipher?
+Answer: Yes, there are variations that involve using different alphabets (e.g., ROT13) or shifting in both directions (left and right). These variations provide additional complexity.
+
+Remember that the Caesar Cipher is a simple historical encryption method and not suitable for securing sensitive information in modern applications. More advanced encryption techniques like AES or RSA are used for that purpose.

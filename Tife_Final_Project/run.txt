@@ -1,0 +1,16 @@
+"These are the steps to run the Caesar cypher code 💡:
+
+>> Put the code in a file with a name like caesar_cipher.py.
+
+>> If Python isn't already installed on your machine, do so now.
+
+>> Start a command prompt or terminal.
+
+>> Use the cd command to move to the folder containing your code.
+
+>> By entering python caesar_cipher.py and clicking Enter, you can run the programme.
+
+>> To enter encryption/decryption information, adhere to the on-screen directions.
+
+>> The outcome will be shown by the programme. Enjoy!"
+

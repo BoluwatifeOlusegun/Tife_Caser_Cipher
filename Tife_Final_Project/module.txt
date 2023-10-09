@@ -1,0 +1,12 @@
+PYTTSX3
+To install the pyttsx3 module, you can use the Python package manager, pip. Here are the steps to install it:
+
+Open a command prompt or terminal window.
+
+Type the following command and press Enter:
+
+pip install pyttsx3
+
+This command will download and install the pyttsx3 module and its dependencies from the Python Package Index (PyPI).
+
+Wait for the installation to complete. You should see output indicating that the installation was successful.

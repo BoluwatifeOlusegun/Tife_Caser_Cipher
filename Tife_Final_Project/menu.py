@@ -5,17 +5,14 @@ def show_menu():
         2: "\tHow to run program⚙️",
         3: "\tFrequently asked questions📢",
         4: "\tLinks🔗",
-        5: "\tModule Installation"
+        5: "\tModule Installation."
     }
     
     while True:
         for key, value in know_how.items():
             print(f"{key}: {value}")
 
-        user_sel = input("Enter (1/2/3/4) for selection, or 'q' to quit: ")
-
-        
-
+        user_sel = input("Enter (1/2/3/4) for selection, or 'q' to quit: ")       
         try:
             if user_sel == 'q':
                 break

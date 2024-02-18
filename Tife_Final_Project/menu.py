@@ -5,7 +5,7 @@ def show_menu():
         2: "\tHow to run program⚙️",
         3: "\tFrequently asked questions📢",
         4: "\tLinks🔗",
-        5: "Module Installation"
+        5: "\tModule Installation"
     }
     
     while True:
@@ -14,10 +14,12 @@ def show_menu():
 
         user_sel = input("Enter (1/2/3/4) for selection, or 'q' to quit: ")
 
-        if user_sel == 'q':
-            break
+        
 
         try:
+            if user_sel == 'q':
+                break
+
             user_sel = int(user_sel)
             if user_sel == 1:
                 break
